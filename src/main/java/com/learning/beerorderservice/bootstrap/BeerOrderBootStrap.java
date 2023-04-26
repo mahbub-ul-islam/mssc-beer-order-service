@@ -32,8 +32,7 @@ public class BeerOrderBootStrap implements CommandLineRunner {
                             .builder()
                             .customerName(TASTING_ROOM)
                             .apiKey(UUID.randomUUID())
-                            .build()
-            );
+                            .build());
         }
     }
 }
